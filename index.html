@@ -3,44 +3,153 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GreenBite</title>
-  <!-- Ajout du lien vers Bootstrap 5 -->
+  <title>GreenBite - Alimentation saine, simple et intelligente</title>
+
+  <!-- Lien vers le CSS Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Typographie Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
     body {
-      background-color: #e9f7ef;
+      font-family: 'Poppins', sans-serif;
+      background-color: #F5EEDC;
     }
     header {
-      background-color: #28a745;
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 0;
+    }
+    footer {
+      background-color: #4CAF50;
       color: white;
       padding: 10px;
     }
-    footer {
-      background-color: #28a745;
-      color: white;
-      padding: 5px;
+    .card-body {
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .section-title {
+      color: #4CAF50;
       text-align: center;
+      margin-bottom: 30px;
+    }
+    .green-btn {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .green-btn:hover {
+      background-color: #388E3C;
+    }
+    .linkedin {
+      color: #0A66C2;
     }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Bienvenue sur GreenBite</h1>
-</header>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="display-4">GreenBite</h1>
+      <p class="lead">L’alimentation saine, simple et intelligente.</p>
+    </div>
+  </header>
 
-<div class="container mt-5">
-  <h2>Notre Mission</h2>
-  <p>GreenBite est un site dédié à la promotion d'une alimentation plus verte et plus saine !</p>
-</div>
+  <!-- Section Profil du Fondateur -->
+  <section id="fondateur" class="container my-5">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://via.placeholder.com/150" alt="Emma Lefèvre" class="img-fluid rounded-circle">
+      </div>
+      <div class="col-md-8">
+        <h2>Emma Lefèvre</h2>
+        <p><strong>Poste :</strong> Fondatrice & CEO de GreenBite</p>
+        <p><strong>Email :</strong> <a href="mailto:emma.lefevre@greenbite.ai">emma.lefevre@greenbite.ai</a></p>
+        <p><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/emmalefevre" target="_blank" class="linkedin">linkedin.com/in/emmalefevre</a></p>
+      </div>
+    </div>
+  </section>
 
-<footer>
-  <p>&copy; 2025 GreenBite. Tous droits réservés.</p>
-</footer>
+  <!-- Section Expérience professionnelle -->
+  <section id="experience" class="container my-5">
+    <h2 class="section-title">Expérience professionnelle</h2>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <strong>GreenBite (2024 - Présent)</strong> | Fondatrice & CEO
+        <ul>
+          <li>Développement d’une IA de recommandations alimentaires personnalisées.</li>
+          <li>Création d’une application qui analyse les besoins nutritionnels et propose des repas sains.</li>
+          <li>Collaboration avec des producteurs locaux pour des ingrédients de qualité.</li>
+        </ul>
+      </li>
+      <li class="list-group-item">
+        <strong>FoodTech Solutions (2019 - 2024)</strong> | Responsable Innovation
+        <ul>
+          <li>Création d’un algorithme d’optimisation des plans nutritionnels.</li>
+          <li>Déploiement de solutions IA pour réduire le gaspillage alimentaire.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-<!-- JavaScript Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  <!-- Section Compétences -->
+  <section id="competences" class="container my-5">
+    <h2 class="section-title">Compétences</h2>
+    <ul class="list-group">
+      <li class="list-group-item">✅ IA et nutrition</li>
+      <li class="list-group-item">✅ Développement de produits innovants</li>
+      <li class="list-group-item">✅ Stratégie d’entreprise et leadership</li>
+      <li class="list-group-item">✅ Gestion de projets FoodTech</li>
+    </ul>
+  </section>
 
+  <!-- Section Cahier des Charges -->
+  <section id="cahier-des-charges" class="container my-5">
+    <h2 class="section-title">Cahier des Charges du Site Internet</h2>
+    <p><strong>Plateforme interactive avec :</strong></p>
+    <ul>
+      <li>Analyse personnalisée : Un questionnaire IA pour adapter les repas aux besoins nutritionnels.</li>
+      <li>Recettes intelligentes : Suggestions de plats selon vos préférences et aliments disponibles.</li>
+      <li>Marketplace locale : Achat d’ingrédients frais et bio auprès de producteurs locaux.</li>
+      <li>Mode anti-gaspillage : Suggestions de recettes en fonction des restes du frigo.</li>
+    </ul>
+  </section>
+
+  <!-- Section Publications réseaux sociaux -->
+  <section id="publications" class="container my-5">
+    <h2 class="section-title">Publications pour les réseaux sociaux</h2>
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Instagram / Facebook</h5>
+        <p class="card-text">🥗 Vous voulez manger sainement sans vous prendre la tête ? GreenBite vous recommande des repas équilibrés selon vos goûts et besoins. 🤩 🍏<br>👉 Essayez gratuitement notre app ! #HealthyFood #FoodTech #BienManger</p>
+      </div>
+    </div>
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">LinkedIn</h5>
+        <p class="card-text">La nutrition impacte directement notre santé et notre bien-être. Mais comment bien manger au quotidien sans y passer des heures ?<br>GreenBite utilise l’intelligence artificielle pour vous proposer des repas personnalisés et réduire le gaspillage alimentaire.<br>🍽️ Moins de temps perdu, plus de plaisir dans l’assiette !<br>👉 Découvrez notre solution ici : <a href="https://www.greenbite.ai" target="_blank">www.greenbite.ai</a></p>
+      </div>
+    </div>
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Tweet</h5>
+        <p class="card-text">🥑 "Trouver quoi manger chaque jour est une galère ? GreenBite vous propose des repas sains & intelligents adaptés à votre mode de vie. Essayez maintenant ! 🍏🚀 #HealthyEating #FoodAI"</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2025 GreenBite - <a href="mailto:contact@greenbite.ai">contact@greenbite.ai</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
